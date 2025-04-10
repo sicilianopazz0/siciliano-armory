@@ -2,9 +2,16 @@ Config = {}
 
 -- NPC Configuration
 Config.NPC = {
-    model = 's_m_y_cop_01',
-    position = vector3(),
-    heading = -90.0
+    police = {
+        model = 's_m_y_cop_01',
+        position = vector3(000, 000, 000),
+        heading = -90.0
+    },
+    ambulance = {
+        model = 's_m_m_doctor_01',
+        position = vector3(000, 000, 000),
+        heading = -90.0
+    }
 }
 
 -- Equipment for different jobs
